@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #212529;
+  --gray: #6c757d;
+  --white-color: #fefcfb;
+  --text-color: #f8f9fa; 
+  --login-button-color:  #ffb627;
+  --light-gray: #c3c5b2;
+  --medium-gray: #343a40;
+  
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
